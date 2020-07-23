@@ -24,11 +24,24 @@ var flare = {
       "children": [
         {
           "name": "Atom1",
-          "value": 300
+          "children": [
+            {          
+              "name": "exampleState1",
+              "value": 10
+            },
+            {
+              "name": "exampleState2",
+              "value": 10
+            },
+            {
+              "name": "exampleState3",
+              "value": 10
+            }
+          ]
         },
         {
           "name": "Atom2",
-          "value": 20
+          "value": 10
         },
         {
           "name": "Atom3",
